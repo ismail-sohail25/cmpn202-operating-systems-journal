@@ -1,8 +1,14 @@
-Operating Systems Coursework Journal (CMPN202)
+# Operating Systems Coursework Journal (CMPN202)
 
-This site contains my weekly coursework journal.
+## Project Overview
 
- Weeks
+This site documents the weekly coursework journal for the Operating Systems Module. This project focuses on planning, deployment, configuration, security hardening and performance evaluation of a Linux based server using virtual machines
+The journal covers 7 weeks with each week addressing system architecture design, security planning, application selection, security hardening, performance testing and security auditing.
+All configurations and testing were performed in a virtual environment using an Ubuntu Server and an Ubuntu Desktop virtual machine
+
+
+## Weeks
+
 - [Week 1 – System Planning and Distribution Selection](week1.md)
 - [Week 2 – Security Planning and Testing Methodology](week2.md)
 - [Week 3 – Application Selection for Performance Testing](week3.md)
