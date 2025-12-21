@@ -9,21 +9,21 @@ To improve the security of remote access to the server, SSH key based authentica
 To generate a SSH key on the workstation I did the following command:  
 • ssh-keygen -t rsa -b 4096
 
-![Week 4 SSH key generation](images/week4/week4-ssh-key-generation-workstation.png)
+![SSH key generation on workstation](images/week4/week4-ssh-key-generation-workstation.png)
 
 Next I copied the public key from the workstation to the server using this command:  
 • ssh-copy-id vboxuser@192.168.100.11
 
 I was asked for the password of the server and then the terminal confirmed that the one key was added.
 
-![Week 4 SSH key copied to server](images/week4/week4-ssh-key-copied-to-server.png)
+![SSH key copied to server](images/week4/week4-ssh-key-copied-to-server.png)
 
 Then I had to verify that SSH key based authentication was working correctly so I logged into the server using this command:  
 • ssh vboxuser@192.168.100.11
 
 The login worked without asking for a password proving that key based authentication was active.
 
-![Week 4 Passwordless SSH login](images/week4/week4-ssh-passwordless-login-success.png)
+![Passwordless SSH login](images/week4/week4-ssh-passwordless-login-success.png)
 
 ---
 
@@ -36,7 +36,7 @@ I edited the SSH configuration file using this command:
 
 Before I made any changes the file was empty.
 
-![Week 4 SSH config before changes](images/week4/week4-sshd-config-before-hardening.png)
+![SSH config before hardening](images/week4/week4-sshd-config-before-hardening.png)
 
 I then added these following lines to the file.  
 • PasswordAuthentication no  
@@ -45,7 +45,7 @@ I then added these following lines to the file.
 
 After I saved the file I had to restart the SSH service to make sure the changes were applied.
 
-![Week 4 SSH config after changes](images/week4/week4-sshd-config-after-hardening.png)
+![SSH config after hardening](images/week4/week4-sshd-config-after-hardening.png)
 
 ---
 
@@ -54,17 +54,17 @@ After I saved the file I had to restart the SSH service to make sure the changes
 To apply the principle of least privilege, I had to create a new non root administrative user. To create this I used this command:  
 • sudo adduser adminuser
 
-![Week 4 Admin user creation](images/week4/week4-create-admin-user.png)
+![Admin user creation](images/week4/week4-create-admin-user.png)
 
 Then to grant administrative privileges I added the user to the sudo group using this command.  
-• sudo usermod -aG sudo adminuser
+• sudo usermod -aG sudo adminuser  
 
 I then had to confirm if the user had privilges so I ran this command.  
 • groups adminuser  
 
 The output confirmed this.
 
-![Week 4 Admin user sudo privileges](images/week4/week4-admin-user-sudo-privileges.png)
+![Admin user sudo privileges](images/week4/week4-admin-user-sudo-privileges.png)
 
 ---
 
@@ -90,7 +90,7 @@ To verify the firewall configuration I checked the status of the firewall using:
 
 The output confirmed that SSH access was allowed only from the workstation’s IP.
 
-![Week 4 Firewall restricted to workstation](images/week4/week4-ufw-ssh-restricted-to-workstation.png)
+![Firewall restricted to workstation IP](images/week4/week4-ufw-ssh-restricted-to-workstation.png)
 
 ---
 
@@ -105,9 +105,9 @@ All the system administration tasks this week were performed remotely from the w
 
 These commands demonstrate remote service management, firewall inspection, log monitoring, user management and permission.
 
-![Week 4 Remote Apache restart](images/week4/week4-remote-apache-restart.png)
+![Remote Apache restart via SSH](images/week4/week4-remote-service-restart-apache.png)
 
-![Week 4 Remote test user creation](images/week4/week4-remote-testuser-creation.png)
+![Remote test user creation via SSH](images/week4/week4-remote-user-creation-testuser.png)
 
 ---
 
