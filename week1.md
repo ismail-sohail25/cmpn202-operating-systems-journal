@@ -1,4 +1,4 @@
-[← Home](index.md) | [Next → Week 2](week2.md)
+[🏠 Home](index.md) | [➡️ Week 2](week2.md)
 
 
 # Week 1 – System Architecture and Distribution Selection
@@ -95,4 +95,4 @@ I also ran some of these CLI Commands such as
 In week 1 by planning which network I was going to choose and by selecting my server as the Ubuntu Server I ensured compatibility with the labs. The biggest challenge for me during this week was creating a static IP for the Workstation as I had multiple issues as the IP address kept disappearing. To fix this, I had to recreate a clear connection and reconfigure a permanent static IP. Although, this process took time it taught me more about Linux networking. Now that I have done this it will allow me to guarantee a reliable environment for the upcoming weeks and labs.
 
 
-[← Home](index.md) | [Next → Week 2](week2.md)
+[➡️ Week 2](week2.md)
