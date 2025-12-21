@@ -88,7 +88,7 @@ The script was created and edited on the server using:
 
 The script includes clear line-by-line comments explaining each step.
 
-![Security baseline script code](images/week5-security-baseline-script-code.png)
+![Security baseline script code](images/week5-security-baseline-script.png)
 
 After making the script executable, it was run using:
 
@@ -96,7 +96,7 @@ After making the script executable, it was run using:
 
 The output confirmed that all security controls were correctly configured and active.
 
-![Security baseline script output](images/week5-security-baseline-script-output.png)
+![Security baseline script output](images/week5-security-baseline-output.png)
 
 ---
 
@@ -110,7 +110,7 @@ The script was created and edited on the workstation using:
 
 The script includes clear line-by-line comments explaining each step.
 
-![Remote monitoring script code](images/week5-monitor-server-script-code.png)
+![Remote monitoring script code](images/week5-monitor-server-script.png)
 
 The script was then executed from the workstation using:
 
@@ -118,7 +118,7 @@ The script was then executed from the workstation using:
 
 The output showed real-time metrics collected remotely from the server via SSH.
 
-![Remote monitoring script output](images/week5-monitor-server-script-output.png)
+![Remote monitoring script output](images/week5-monitor-server-output.png)
 
 ---
 
