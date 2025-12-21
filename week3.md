@@ -1,5 +1,4 @@
-[← Home](index.md) | [← Previous – Week 2](week2.md) | [Next → Week 4](week4.md)
-
+[⬅️ Week 2](week2.md) | [🏠 Home](index.md) | [➡️ Week 4](week4.md)
 
 # Week 3 Application Selection and Resource Profiling:
 
@@ -55,4 +54,4 @@ I then took a screenshot of all the outputs then this allows comparison once the
 
 In week 3 by selecting a wide range of benchmarking tools I made sure that every major subsystem CPU, memory, disk and network can be evaluated. Profiling this before allows me to understand how the server will perform under stress.
 
-[← Previous – Week 2](week2.md) | [Next → Week 4](week4.md)
+[⬅️ Week 2](week2.md) | [➡️ Week 4](week4.md)
