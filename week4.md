@@ -1,4 +1,5 @@
-← [Week 3 – Application Selection and Resource Profiling](week3.md) | [Week 5 – Advanced Security and Monitoring](week5.md) →
+[⬅️ Week 3](week3.md) | [🏠 Home](index.md) | [➡️ Week 5](week5.md)
+
 
 # **Week 4 – System Configuration and Security Implementation**
 
@@ -115,4 +116,4 @@ These commands demonstrate remote service management, firewall inspection, log m
 
 In week 4, I secured the server by implementing SSH key based authentication, hardening the SSH service, managing user privileges and configuring a firewall. This week helped establish a strong security foundation that prepares the system for later labs and weeks.
 
-← [Week 3 – Application Selection and Resource Profiling](week3.md) | [Week 5 – Advanced Security and Monitoring](week5.md) →
+[⬅️ Week 3](week3.md) | [➡️ Week 5](week5.md)
