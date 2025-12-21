@@ -1,4 +1,5 @@
-[← Home](index.md) | [← Previous – Week 1](week1.md) | [Next → Week 3](week3.md)
+[⬅️ Week 1](week1.md) | [🏠 Home](index.md) | [➡️ Week 3](week3.md)
+
 
 
 # Week 2 – Security And Testing Methodology:
@@ -88,4 +89,4 @@ I then took a screenshot of this which shows what is the list of active services
 
 In week 2 I went from virtual machine setup to operating system analysis. By creating a threat model diagram and identifying potential risks. I now can see many weaknesses in my server. Also, analysing the attack surface showed me how attackers might attack. While the performance testing ensures that benchmarking will be accurate.
 
-[← Previous – Week 1](week1.md) | [Next → Week 3](week3.md)
+[⬅️ Week 1](week1.md) | [➡️ Week 3](week3.md)
