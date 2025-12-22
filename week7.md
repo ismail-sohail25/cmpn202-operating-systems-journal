@@ -11,7 +11,8 @@ The following command was executed on the server via SSH:
 ### **Lynis Results- Initial Scan:**
 The initial Lynis scan reported a hardening index score of 61, showing that although security controls were in place there are still opportunities for improvement. The audit identified areas related to kernel parameters, system services and file permissions that could be improved further.  
 
-`images/week7-lynis-initial-scan.png`
+![Initial Lynis Audit](images/week7-lynis-initial-audit.png)
+
 
 ### **Lynis Remediation Actions:**
 Following the audit recommendations, the system was reviewed to ensure that:  
@@ -27,7 +28,8 @@ After checking and applying recommended configurations, the Lynis audit was exec
 ### **Lynis Results- Post Remediation Scan:**
 After remediation, the lynis hardening score improved, demonstrating security enhancement. Although the score did not increase much the increase still confirms that security controls were correctly implemented and validated  
 
-`images/week7-lynis-post-remediation.png`
+![Post Remediation Lynis Audit](images/week7-lynis-post-remediation.png)
+
 
 ---
 
@@ -46,7 +48,8 @@ The scan confirmed:
 
 This confirms that the firewall configuration from previous weeks successfully restricted the attack surface.  
 
-`images/week7-nmap-scan-results.png`
+![Nmap Network Scan](images/week7-nmap-network-scan.png)
+
 
 ---
 
@@ -61,8 +64,9 @@ Also, AppArmor enforcement was verified to ensure mandatory access control was a
 
 The output showed multiple profiles loaded and enforced, confirming that AppArmor was actively protecting system services  
 
-`images/week7-ssh-status.png`  
-`images/week7-apparmor-status.png`
+![SSH Service Status](images/week7-ssh-service-status.png)
+ 
+![AppArmor Status](images/week7-apparmor-status.png)
 
 ---
 
@@ -71,7 +75,8 @@ A service audit was conducted to identify all running services on the server an 
 The following command was used:  
 • systemctl list-units –type=service –state=running  
 
-`images/week7-running-services-audit.png`
+![Running Services Audit](images/week7-running-services-audit.png)
+
 
 ---
 
