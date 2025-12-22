@@ -139,6 +139,8 @@ Overall the system demonstrates a low to moderate risk profile. Strong hardening
 Week 7 provided a complete overview of the server security through auditing and evaluation. Conducting a Lynis audit improved my understanding of security benchmarking. Networking scanning with Nmap confirmed that the server’s attack surface was minimal.  
 Verifying SSH security, access control enforcement and running services reinforced the importance of layered security. Overall in this final week validated that the system was securely designed, correctly configured and suitable for real-world use.
 
----
+**References:**  
+[1], [8]
+
 
 [⬅️ Week 6 – Performance Evaluation](week6.md) | 
