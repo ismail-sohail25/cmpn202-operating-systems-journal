@@ -1,4 +1,4 @@
-[⬅️ Week 6 – Performance Evaluation](week6.md) | [🏠 Home](README.md) | 
+[⬅️ Week 6 – Performance Evaluation](week6.md) | [🏠 Home](index.md) | 
 ---
 
 # **Week 7- Security Audit Report and System Evaluation:**
