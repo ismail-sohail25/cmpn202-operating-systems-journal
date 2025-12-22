@@ -116,4 +116,7 @@ These commands demonstrate remote service management, firewall inspection, log m
 
 In week 4, I secured the server by implementing SSH key based authentication, hardening the SSH service, managing user privileges and configuring a firewall. This week helped establish a strong security foundation that prepares the system for later labs and weeks.
 
+**References:**  
+[3]
+
 [⬅️ Week 3](week3.md) | [➡️ Week 5](week5.md)
