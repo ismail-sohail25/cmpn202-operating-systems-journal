@@ -11,7 +11,7 @@ The following command was executed on the server via SSH:
 ### **Lynis Results- Initial Scan:**
 The initial Lynis scan reported a hardening index score of 61, showing that although security controls were in place there are still opportunities for improvement. The audit identified areas related to kernel parameters, system services and file permissions that could be improved further.  
 
-![Initial Lynis Audit](images/week7-lynis-initial-audit.png)
+![Initial Lynis Audit](images/week7-lynis-audit-before.png)
 
 
 ### **Lynis Remediation Actions:**
@@ -28,7 +28,7 @@ After checking and applying recommended configurations, the Lynis audit was exec
 ### **Lynis Results- Post Remediation Scan:**
 After remediation, the lynis hardening score improved, demonstrating security enhancement. Although the score did not increase much the increase still confirms that security controls were correctly implemented and validated  
 
-![Post Remediation Lynis Audit](images/week7-lynis-post-remediation.png)
+![Post Remediation Lynis Audit](images/week7-lynis-audit-after.png)
 
 
 ---
@@ -48,7 +48,7 @@ The scan confirmed:
 
 This confirms that the firewall configuration from previous weeks successfully restricted the attack surface.  
 
-![Nmap Network Scan](images/week7-nmap-network-scan.png)
+![Nmap Network Scan](images/week7-nmap-scan-results.png)
 
 
 ---
@@ -64,9 +64,9 @@ Also, AppArmor enforcement was verified to ensure mandatory access control was a
 
 The output showed multiple profiles loaded and enforced, confirming that AppArmor was actively protecting system services  
 
-![SSH Service Status](images/week7-ssh-service-status.png)
+![SSH Service Status](images/week7-ssh-security-verification.png)
  
-![AppArmor Status](images/week7-apparmor-status.png)
+![AppArmor Status](images/week7-access-control-verification.png)
 
 ---
 
