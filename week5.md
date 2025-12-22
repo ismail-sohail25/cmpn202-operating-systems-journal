@@ -130,6 +130,7 @@ Fail2Ban provided automated protection against brute force attacks, while firewa
 
 Week 5 strengthened the server’s resilience, improved visibility into system behaviour and prepared the system for performance evaluation and security auditing in the following weeks.
 
----
+**References:**  
+ [4], [5]
 
 [⬅️ Week 4](week4.md) | [➡️ Week 6](week6.md)
