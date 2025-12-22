@@ -1,15 +1,15 @@
 # References
 
-[1] CIS, *CIS Ubuntu Linux 20.04 LTS Benchmark*, Center for Internet Security, 2023.  
+[1] Center for Internet Security, *CIS Ubuntu Linux 20.04 LTS Benchmark*, 2023.  
 Available: https://www.cisecurity.org/benchmark/ubuntu_linux
 
-[2] M. Zalewski, *The Linux Security Model*, Linux Foundation, 2022.  
+[2] Linux Foundation, *The Linux Security Model Documentation*, 2022.  
 Available: https://www.kernel.org/doc/html/latest/security/index.html
 
 [3] OpenSSH Project, *OpenSSH Manual Pages*, 2024.  
 Available: https://www.openssh.com/manual.html
 
-[4] Canonical Ltd., *Ubuntu Security Guide: AppArmor*, 2024.  
+[4] Canonical Ltd., *Ubuntu Server Security – AppArmor*, 2024.  
 Available: https://ubuntu.com/server/docs/security-apparmor
 
 [5] Fail2Ban Project, *Fail2Ban Documentation*, 2024.  
