@@ -204,6 +204,8 @@ Week 6 provided valuable insight into how the operating system behaves under dif
 
 Optimisation testing confirmed that Linux can recover effectively after periods of high load. Restoring firewall rules ensured that the system returned to a secure configuration after testing. Overall, this week prepared the system well for the final security audit and hardening evaluation in Week 7.
 
----
+**References:**  
+[6], [7]
+
 
 [⬅️ Week 5](week5.md) | [➡️ Week 7](week7.md)
