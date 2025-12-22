@@ -16,3 +16,4 @@ All configurations and testing were performed in a virtual environment using an 
 - [Week 5 – Advanced Security & Monitoring](week5.md)
 - [Week 6 – Performance Evaluation](week6.md)
 - [Week 7 – Security Audit & Hardening Evaluation](week7.md)
+- [References](references.md)
